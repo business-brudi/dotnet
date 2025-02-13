@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34321.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorNet8", "BlazorNet8\BlazorNet8\BlazorNet8.csproj", "{D8D51628-6E86-4E71-B23E-C91B1930D405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorNet8.Client", "BlazorNet8\BlazorNet8.Client\BlazorNet8.Client.csproj", "{150FD3B1-9D85-4800-B481-E5E729E41897}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net8", "Net8", "{06BB9BBC-0352-4656-B764-E0F6D516AF9F}"
+	ProjectSection(SolutionItems) = preProject
+		notes.md = notes.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net9", "Net9", "{66F6F073-F86A-46A8-976C-F7165AD42B70}"
+	ProjectSection(SolutionItems) = preProject
+		Net9\notes.md = Net9\notes.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Learn", "Learn", "{170C6D9B-C01F-4A38-9336-552EA5DC5382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebuggerDisplayApp", "Learn\DebuggerDisplayApp\DebuggerDisplayApp.csproj", "{590C1550-BB42-40D6-BB9A-90E45B46A158}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8D51628-6E86-4E71-B23E-C91B1930D405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D51628-6E86-4E71-B23E-C91B1930D405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D51628-6E86-4E71-B23E-C91B1930D405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D51628-6E86-4E71-B23E-C91B1930D405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150FD3B1-9D85-4800-B481-E5E729E41897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150FD3B1-9D85-4800-B481-E5E729E41897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150FD3B1-9D85-4800-B481-E5E729E41897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150FD3B1-9D85-4800-B481-E5E729E41897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{590C1550-BB42-40D6-BB9A-90E45B46A158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590C1550-BB42-40D6-BB9A-90E45B46A158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590C1550-BB42-40D6-BB9A-90E45B46A158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590C1550-BB42-40D6-BB9A-90E45B46A158}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8D51628-6E86-4E71-B23E-C91B1930D405} = {06BB9BBC-0352-4656-B764-E0F6D516AF9F}
+		{150FD3B1-9D85-4800-B481-E5E729E41897} = {06BB9BBC-0352-4656-B764-E0F6D516AF9F}
+		{590C1550-BB42-40D6-BB9A-90E45B46A158} = {170C6D9B-C01F-4A38-9336-552EA5DC5382}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E4531C6-4206-4F92-B1ED-4DA775CA3CB6}
+	EndGlobalSection
+EndGlobal

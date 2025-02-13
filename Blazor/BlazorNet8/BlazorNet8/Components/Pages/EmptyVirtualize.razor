@@ -1,0 +1,24 @@
+﻿@page "/EmptyVirtualize"
+@rendermode InteractiveServer
+
+<h1>Empty Content Example</h1>
+
+<div>Virtualize</div>
+<Virtualize Items="@stringList">
+    <ItemContent>
+        <p>
+            @context
+        </p>
+    </ItemContent>
+    <EmptyContent>
+        <p style="border: 1px springgreen solid">
+            There are no strings to display.
+        </p>
+    </EmptyContent>
+</Virtualize>
+
+@code {
+    private List<string>? stringList;
+
+    protected override void OnInitialized() => stringList ??= new();
+}

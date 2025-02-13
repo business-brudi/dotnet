@@ -1,0 +1,22 @@
+﻿@page "/daleks"
+@rendermode InteractiveServer
+
+<h1>Root-level cascading value registration example</h1>
+
+<ul>
+    <li>Dalek Units: @DaleksValue?.Units</li>
+    <li>Alpha Group Dalek Units: @AlphaGroupDaleks?.Units</li>
+</ul>
+
+<p>
+    Dalek ©<a href="https://www.imdb.com/name/nm0622334/">Terry Nation</a><br>
+    Doctor Who ©<a href="https://www.bbc.co.uk/programmes/b006q2x0">BBC</a>
+</p>
+
+@code {
+    [CascadingParameter]
+    public BlazorNet8.Daleks? DaleksValue { get; set; }
+
+    [CascadingParameter(Name = "AlphaGroup")]
+    public BlazorNet8.Daleks? AlphaGroupDaleks { get; set; }
+}
